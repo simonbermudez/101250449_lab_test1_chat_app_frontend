@@ -29,20 +29,20 @@ const RoomList = () => {
           <>
             <Link to='/chat'>
               <RoomListLink
-                isCurrentRoom={currentTopic === 'main'}
-                linkName='main'
+                isCurrentRoom={currentTopic === 'news'}
+                linkName='news'
               />
             </Link>
             <Link to='/chat'>
               <RoomListLink
-                isCurrentRoom={currentTopic === 'topic2'}
-                linkName='topic2'
+                isCurrentRoom={currentTopic === 'covid19'}
+                linkName='covid19'
               />
             </Link>
             <Link to='/chat'>
               <RoomListLink
-                isCurrentRoom={currentTopic === 'cow'}
-                linkName='cow'
+                isCurrentRoom={currentTopic === 'nodeJS'}
+                linkName='nodeJS'
               />
             </Link>
 

@@ -22,9 +22,9 @@ const ChatBox = ({ socket }) => {
   let displayChatBoxMessageList;
 
   if (
-    currentTopic === 'main' ||
-    currentTopic === 'topic2' ||
-    currentTopic === 'cow'
+    currentTopic === 'news' ||
+    currentTopic === 'covid19' ||
+    currentTopic === 'nodeJS'
   ) {
     displayChatBoxMessageList = true;
   }

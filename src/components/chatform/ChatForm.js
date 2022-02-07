@@ -87,9 +87,9 @@ const ChatForm = ({ socket }) => {
   let display = false;
 
   if (
-    appState.currentTopic === 'main' ||
-    appState.currentTopic === 'topic2' ||
-    appState.currentTopic === 'cow' ||
+    appState.currentTopic === 'news' ||
+    appState.currentTopic === 'covid19' ||
+    appState.currentTopic === 'nodeJS' ||
     appState.currentTopic.substr(0, 7) === 'private'
   ) {
     display = true;
