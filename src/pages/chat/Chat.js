@@ -17,7 +17,7 @@ const Chat = () => {
 
   if (appState.userId) {
     socket = io(
-      `https://101250449-lab-test1-chat-app.vercel.app?profilePicUrl=${appState.profilePicUrl}&username=${appState.username}&userId=${appState.userId}`
+      `http://cloud.simonbermudez.com:8000?profilePicUrl=${appState.profilePicUrl}&username=${appState.username}&userId=${appState.userId}`
     );
     socket.emit('updateAndSendOnlineUsers');
   }
